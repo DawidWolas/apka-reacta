@@ -2,7 +2,7 @@ const SearchForm = () => {
     return(
         <form>
             <input type= "text" />
-            <button>Search</button>
+            <button>Szukaj</button>
         </form>
     );
 };

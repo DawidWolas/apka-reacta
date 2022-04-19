@@ -1,8 +1,8 @@
 const Hero =() =>{
     return(
     <div>
-        <h1>My firs React App</h1>
-        <p>A simple to-do app, with lists, columns and card</p>
+        <h1>Moja pierwsza aplikacja React </h1>
+        <p>Prosta lista do zrobienia z wyszukiwarką  i kartami</p>
     </div>  
     );
 };
