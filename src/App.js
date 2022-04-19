@@ -1,5 +1,12 @@
+import Hero from "./Components/Hero/Hero"
+import SearchForm from "./Components/SearchForm/SearchForm"
 const App =()=>{
-  return(<h1>Hello World</h1>
+  return(
+  <div>
+   <Hero />
+   <SearchForm />
+  </div>
+  
   );
 };
 export default App;
