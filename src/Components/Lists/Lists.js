@@ -1,19 +1,21 @@
+import styles from './Lists.module.scss';
+
 const Lists =() =>{
     return(
-        <div>
-            <header>
-                <h2>Do zrobienia<span>wkrótce</span></h2>
+        <div className={styles.list}>
+            <header className={styles.header}>
+                <h2 className={styles.title} >Do zrobienia<span>wkrótce</span></h2>
             </header>
-                 <p>Rzeczy które chce sprawdzić</p>
-                <section>
+                 <p className={styles.description}>Rzeczy które chce sprawdzić</p>
+                <section className={styles.columns}>
                     <article>
-                            <h2>Książki</h2>
+                            <h2 className="title">Książki</h2>
                         </article> 
                     <article>
-                            <h2>Filmy</h2>
+                            <h2 className="title">Filmy</h2>
                         </article>
                     <article>
-                            <h2>Gry</h2>
+                            <h2 className="title">Gry</h2>
                         </article>   
                 </section> 
         </div>
